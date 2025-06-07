@@ -1,0 +1,37 @@
+# Core Streamlit Application
+streamlit>=1.28.0
+
+# AI/ML Models
+openai-whisper>=20231117
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.35.0
+
+# Language Processing
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+
+# Audio Processing
+sounddevice>=0.4.6
+scipy>=1.11.0
+numpy>=1.24.0
+
+# Text-to-Speech
+gtts>=2.4.0
+
+# Utilities
+pandas>=2.0.0
+python-dateutil>=2.8.2
+
+# Optional: Enhanced Audio Processing
+# librosa>=0.10.0
+# noisereduce>=3.0.0
+
+# Optional: GPU Support (uncomment if you have CUDA)
+# torch>=2.0.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+# torchaudio>=2.0.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+
+# Development Dependencies (optional)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
